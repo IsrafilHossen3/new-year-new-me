@@ -168,6 +168,10 @@ footer {
   font-weight:  600;
 }
 
+.social-links a{
+  margin-right: 15px;
+}
+
 .form input {
   width: 100%;
   padding: 21px;
