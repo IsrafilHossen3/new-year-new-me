@@ -6,6 +6,16 @@ body {
   color: #444343;
 }
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
 .btn-primary {
   background-color: #f15b22;
   padding: 20px 25px;
@@ -17,8 +27,15 @@ body {
   cursor: pointer;
 }
 
-section {
-  margin-top: 130px;
+.btn-secondary {
+  background-color: #fff;
+  padding: 20px 35px;
+  border-radius: 5px;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
 }
 
 .section-title {
@@ -73,4 +90,56 @@ header {
 
 .failure-section .column {
   max-width: 420px;
+}
+
+/* plan section styles */
+.plan-section-title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.plan img {
+  width: 90px;
+  margin-bottom: 0;
+}
+
+.plan-title {
+  font-size: 30px;
+  color: #151414;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.plan-description {
+  font-size: 25px;
+}
+
+/* Call to action styles */
+.cta {
+  background-image: url("../images/gradient2.png"), url("../images/watch.png") ;
+  background-repeat: no-repeat no-repeat;
+  padding: 60px 0 60px 64px;
+  background-size: cover;
+}
+
+.cta-title {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.cta-content {
+  max-width: 460px;
+}
+
+/* footer styles */
+footer {
+  margin-top: 130px;
 }
